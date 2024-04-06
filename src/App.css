@@ -1,0 +1,64 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    color:white;
+    padding: 1rem 3rem 1rem 3rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.3rem;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap:1rem;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+
+.container-input > label {
+    text-align: center;
+}
+
+.container-input > input, textarea {
+    padding: 0.7rem;
+    width: 80%;
+    border-color:rgb(206, 206, 206);
+  }
+
+.container-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+
+button {
+    background-color: rgb(247, 14, 14);
+    color: aliceblue;
+    border: none;
+    border-radius: 10%;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1rem;
+}
